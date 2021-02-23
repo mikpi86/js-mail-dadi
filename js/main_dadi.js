@@ -15,6 +15,11 @@ alert("Hai fatto " + lancioUtente + "!");
 
 if (lancioUtente < lancioMax) {
     alert("ahahaha te l'avevo detto che sono il più forte! Vuoi la rivincita?");
+    location.reload();
+} else if (lancioUtente === lancioMax) {
+    alert("Mmh, un pareggio... Per caso stai barando? Riproviamo.");
+    location.reload();
 } else {
     alert("Beh, non darti tante arie. È la solita fortuna del principiante... Rivincita?");
+    location.reload();
 }
