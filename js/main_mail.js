@@ -26,4 +26,4 @@ for (var i = 0; i < utentiIscritti.length; i++) {
     }
 }
 
-// NOTA: al momento l'alert dell'if esce tante volte quante sono le email da verificare
+// NOTA: al momento l'alert esce tante volte quante sono le email da verificare
