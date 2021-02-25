@@ -11,12 +11,8 @@ var utentiIscritti = ['pincopanco@gmail.com', 'pancopinco@libero.it', 'sasa.prov
 for (var i = 0; i < utentiIscritti.length; i++) {
     console.log('Utente iscritto: ' + utentiIscritti[i]);
 
-    /* inizializzo la variabile verifica */
-    var verifica
-
-    /* SE verifica identifica l'email utente all'interno della lista */
-    if (verifica = utentiIscritti[i].includes(eMailUtente)) {
-        console.log(verifica);
+    /* identifico l'email utente all'interno della lista */
+    if (eMailUtente == utentiIscritti[i]) {
         /* l'alert dice che l'utente è già iscritto */
         alert('sei già iscritto');
     /* ALTRIMENTI */
